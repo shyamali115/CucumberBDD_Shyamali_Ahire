@@ -1,0 +1,137 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigation to URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/index.php"
+            ],
+            "result": {
+              "duration": 6572143500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to URL",
+            "match": {
+              "location": "com.BDD.automation.stepdefs.StepDefs.navigate_to_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-06T18:44:05.274Z",
+        "before": [
+          {
+            "output": [
+              "Browser invoked"
+            ],
+            "result": {
+              "duration": 2631758400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.BDD.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User able to see browser and displayed the product category with number",
+        "description": "",
+        "id": "e-shopping-website;user-able-to-see-browser-and-displayed-the-product-category-with-number",
+        "after": [
+          {
+            "output": [
+              "Browser Closed"
+            ],
+            "result": {
+              "duration": 136881300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.BDD.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "1 Product catagories are displayed :WOMEN",
+              "2 Product catagories are displayed :DRESSES",
+              "3 Product catagories are displayed :T-SHIRTS",
+              "Number of product list : 3"
+            ],
+            "result": {
+              "duration": 124924100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User see the product category",
+            "match": {
+              "location": "com.BDD.automation.stepdefs.StepDefs.user_see_the_product_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "All product catagories are displayed"
+            ],
+            "result": {
+              "duration": 1016100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Validate the product category and number of product to be dispalyed",
+            "match": {
+              "location": "com.BDD.automation.stepdefs.StepDefs.validate_the_product_category_and_number_of_product_to_be_dispalyed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@olwebsite"
+          },
+          {
+            "name": "@Validate_prodcategory"
+          }
+        ]
+      }
+    ],
+    "name": "E-shopping Website",
+    "description": "",
+    "id": "e-shopping-website",
+    "keyword": "Feature",
+    "uri": "classpath:features/olwebsite.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@olwebsite",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
+        }
+      }
+    ]
+  }
+]
